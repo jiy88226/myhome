@@ -15,7 +15,7 @@
     </head>
     <body class="text-center">    
       <form class="form-signin" th:action="@{/account/register}" method="post">
-        <img class="mb-4" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+        <a th:href="@{/}"><img class="mb-4" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"></a>
         <h1 class="h3 mb-3 fw-normal">회원 가입</h1>
         <label for="username" class="visually-hidden">username</label>
         <input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus>
